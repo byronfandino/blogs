@@ -1,0 +1,80 @@
+body{
+  background: rgb(22, 117, 228);
+}
+/* ----------HEADER-----*/
+header{
+  background: white;
+  padding:10px;
+}
+
+header img{
+  height: 100px;
+}
+
+/*----MENU NAV---*/
+nav{
+  background:rgb(238, 172, 94);
+}
+
+nav p{
+  margin: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+nav a{
+  padding:15px;
+  text-align: center;
+  text-decoration: none;
+  color:black;
+  font-weight: bold;
+  width: 100%;
+  transition: 0.5s;
+}
+
+nav a:hover{
+  background-color: white;
+
+}
+
+@media (min-width:992px) {
+  /*---header---*/
+  header>div:nth-child(1){
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  }
+
+  header>div:nth-child(2){
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+  img[src$='svg']{
+    margin-top: 50px;
+    height: 35px;
+  }
+}
+
+@media (min-width:320px) and (max-width:991px){
+  /*------HEADER----*/
+  header>div:nth-child(1){
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+  }
+  header>div:nth-child(2){
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+  }
+
+  img[src$='svg']{
+    margin-top: 20px;;
+    height: 35px;
+  }
+
+}
