@@ -35,8 +35,40 @@ nav a{
 
 nav a:hover{
   background-color: white;
-
 }
+
+/*contenido general de la página*/
+/* #contenido *{
+  border: 1px solid red;
+} */
+
+#contenido{
+  margin-top: 20px;
+  background: white;
+  border-radius: 15px;
+}
+
+article{
+  margin-top: 10px;
+}
+/* IMAGENES DE LOS DOS ARTISTAS */
+img[src$='jpg'], img[src$='jpeg']{
+  width: 100%;
+}
+
+.comentario{
+  margin-top:10px;
+}
+
+.comentario img{
+  width: 100%;
+}
+
+textarea{
+  width: 100%;
+  height: 60px;
+}
+
 
 @media (min-width:992px) {
   /*---header---*/
@@ -53,7 +85,7 @@ nav a:hover{
     align-items: flex-end;
   }
 
-  img[src$='svg']{
+  header img[src$='svg']{
     margin-top: 50px;
     height: 35px;
   }
@@ -72,9 +104,12 @@ nav a:hover{
     justify-content: center;
   }
 
-  img[src$='svg']{
+  header img[src$='svg']{
     margin-top: 20px;;
     height: 35px;
+  }
+  aside{
+    display: none;
   }
 
 }
