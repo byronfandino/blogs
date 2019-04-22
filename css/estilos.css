@@ -38,21 +38,20 @@ nav a:hover{
 }
 
 /*contenido general de la página*/
-/* #contenido *{
-  border: 1px solid red;
-} */
 
 #contenido{
   margin-top: 20px;
+  padding-bottom: 30px;
   background: white;
   border-radius: 15px;
 }
 
+/*-----SECTION-------*/
 article{
   margin-top: 10px;
 }
-/* IMAGENES DE LOS DOS ARTISTAS */
-img[src$='jpg'], img[src$='jpeg']{
+
+img[src$='jpg'], img[src$='jpeg']{ /* IMAGENES DE LOS DOS ARTISTAS */
   width: 100%;
 }
 
@@ -69,7 +68,35 @@ textarea{
   height: 60px;
 }
 
+/*--------- ASIDE------- */
+aside{
+  margin-top: 10px;
+}
 
+.busqueda>input{
+  width:90%;
+}
+
+.listado{
+  margin-top: 10px;
+}
+
+.listado li{
+  padding: 5px 0px;
+  border: 1px solid  rgba(97, 104, 105, 0.15);
+  transition: 0.4s;
+}
+
+.listado li:hover{
+  background: rgb(238, 172, 94);
+}
+
+.listado li>a{
+  text-decoration: none;
+  color:black;
+}
+
+/*--Configuraciones de resolución-----*/
 @media (min-width:992px) {
   /*---header---*/
   header>div:nth-child(1){
@@ -111,5 +138,4 @@ textarea{
   aside{
     display: none;
   }
-
 }
