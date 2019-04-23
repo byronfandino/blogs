@@ -40,10 +40,8 @@ nav a:hover{
 /*contenido general de la página*/
 
 #contenido{
-  margin-top: 20px;
   padding-bottom: 30px;
   background: white;
-  border-radius: 15px;
 }
 
 /*-----SECTION-------*/
@@ -115,6 +113,11 @@ aside{
   header img[src$='svg']{
     margin-top: 50px;
     height: 35px;
+  }
+
+  #contenido{
+    margin-top: 20px;
+    border-radius: 15px;
   }
 }
 
