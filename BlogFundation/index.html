@@ -5,16 +5,14 @@
   <meta name="author" content="Byron Fandiño">
   <meta name="description" content="Blog Gastronómico">
   <meta name="keywords" content="recetas, comida, gastronomía">
-  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Pacifico|family=Courgette|family=Dancing+Script|family=Fira+Sans+Condensed" rel="stylesheet">
   <link rel="stylesheet" href="css/foundation.min.css" media="screen" charset="utf-8">
-  <link rel="stylesheet" href="icons/foundation-icons.css" media="screen" charset="utf-8">
   <link rel="stylesheet" href="css/app.css" media="screen" charset="utf-8">
   <title>Los secretos del Chef</title>
 </head>
 <body>
     <!--- ******* HEADER ******** -->
-    <div class="row" id="header">
+    <div class="row show-for-large" id="header">
       <div class="column small-12 medium-12 large-4">
         <div class="row column">
           <h1 class="tituloBlog">Los secretos del Chef</h1>
@@ -30,16 +28,18 @@
 
     <!-- CUERPO DE LA PAGINA -->
     <div class="row">
-      <!-- *** SECCION IZQUIERDA ***** -->
-        <div class="column large-4" id="seccion-izq">
+        <!-- *** SECCION IZQUIERDA ***** -->
+        <div class="column large-4 show-for-large" id="seccion-izq">
           <div class="row">
             <div class="column large-12" id="buscar">
               <div class="row">
                 <div class="column large-10">
-                  <input type="text" name="" value="">
+                  <input type="text">
                 </div>
                 <div class="column large-2">
-                  <button type="submit" name="enviar" class="button"><i class="step fi-magnifying-glass"></i></button>
+                  <a class="button btn-buscar">
+                    <img src="img/buscar.png" alt="Icono buscar">
+                  </a>
                 </div>
               </div>
             </div>
@@ -73,7 +73,117 @@
             </div>
           </div>
         </div>
-        <div class="column" id="seccion-der">
+        <!-- *** SECCION DERECHA ***** -->
+        <div class="column small-12 large-8" id="seccion-der">
+          <article class="row"> <!-- primer articulo -->
+            <div class="column small-12">
+              <h2>Pasta Napolitana</h2>
+              <h6>24 de abril de 2019</h6>
+            </div>
+            <div class="column small-12">
+              <img src="img/receta1.jpg" alt="Pasta Napolitana">
+            </div>
+            <div class="column small-12">
+              <p class="receta">
+                Descorona los tomates, cebollas y pimentones. Límpialos muy bien. Utiliza el tallo del apio España. Corta todo en cubos y licúalo en un poco de agua o caldo de pollo.<br><br>
+                En una sartén honda pon a calentar el aceite y ajo machacado, cuando el aceite esté caliente, vierte la preparación, sofríe la pasta y luego solo ponla a reducir, para ello, usa bajas temperaturas de modo que se evapore la mayor cantidad de líquido y la preparación quede consistente.<br><br>
+                Esta salsa puede ser la base de otras que puedes crear agregando ingredientes como carne molida, chorizo de ternera, entre otros ingredientes con los que conseguirás diferentes tipos de pasta.
+              </p>
+            </div>
+            <div class="column small-12"> <!-- comentarios -->
+
+                <div class="row">
+                  <div class="column small-1">
+                    <img src="img/user.png" alt="usuario"> <!-- Agregar comentario -->
+                  </div>
+                  <div class="column small-11 expanded">
+                    <textarea name="name" placeholder="Escribe un comentario"></textarea>
+                  </div>
+                </div>
+
+                <div class="row comentario"><!-- Comentario 1 -->
+                  <div class="column small-1">
+                    <img src="img/persona1.jpg" alt="usuario">
+                    <p>Paula</p>
+                  </div>
+                  <div class="column small-11">
+                    <p>
+                      "No hallo la hora de preparar tan exquisito plato, me fascina la pasta en todas las presentaciones habidas y por haber."
+                    </p>
+                  </div>
+                </div>
+
+                <div class="row comentario"><!-- Comentario 2 -->
+                  <div class="column small-1">
+                    <img src="img/persona2.jpg" alt="usuario">
+                    <p>Oscar</p>
+                  </div>
+                  <div class="column small-11">
+                    <p>
+                      "Hoy voy a sorprender a mi esposa con esta receta."
+                    </p>
+                  </div>
+                </div>
+
+                <div class="row comentario"><!-- Comentario 3 -->
+                  <div class="column small-1">
+                    <img src="img/persona3.jpg" alt="usuario">
+                    <p>Karol</p>
+                  </div>
+                  <div class="column small-11">
+                    <p>
+                      "Yo ya hice la pasta y me quedó espectacular. Muy fácil de hacer."
+                    </p>
+                  </div>
+                </div>
+
+            </div>
+          </article>
+
+          <article class="row"> <!-- segundo articulo -->
+            <div class="column small-12">
+              <h2>Rollo de carne con verduras</h2>
+              <h6>22 de abril de 2019</h6>
+            </div>
+            <div class="column small-12">
+              <img src="img/receta2.jpg" alt="Carne con verduras">
+            </div>
+            <div class="column small-12">
+              <p class="receta">
+                Lava y corta los vegetales en tiras delgadas, la espinaca la puedes trocear con las manos y la cebolla en rodajas finas.<br><br>
+
+                En una sartén agrega una cucharadita de margarina y sofríe las verduras, agrega la salsa soya al gusto y revuelve hasta que las verduras ablanden y apaga.<br><br>
+
+                Sobre cada filete, acomoda una porción de verduras y forma el rollo, sujeta con un palillo.<br><br>
+
+                En la parrilla caliente a fuego medio, agrega un chorrito de aceite de oliva, acomoda los rollos y ponlos a asar por todos los lados.<br>
+              </p>
+            </div>
+            <div class="column small-12"> <!-- comentarios -->
+
+                <div class="row">
+                  <div class="column small-1">
+                    <img src="img/user.png" alt="usuario"> <!-- Agregar comentario -->
+                  </div>
+                  <div class="column small-11 expanded">
+                    <textarea name="name" placeholder="Escribe un comentario"></textarea>
+                  </div>
+                </div>
+
+                <div class="row comentario"><!-- Comentario 1 -->
+                  <div class="column small-1">
+                    <img src="img/persona4.jpg" alt="usuario">
+                    <p>Nestor</p>
+                  </div>
+                  <div class="column small-11">
+                    <p>
+                      "Estaba buscando otra forma de preparar la carne, y parece que la he encontrado"
+                    </p>
+                  </div>
+                </div>
+
+            </div>
+          </article>
         </div>
     </div>
 

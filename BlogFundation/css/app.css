@@ -1,15 +1,11 @@
-/* ESTO SE ELIMINA */
-
-.column{
-  /* border: 1px solid red; */
-}
-/*---------------------------*/
 body{
   background: url("../img/fondo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
+
+/* **********HEADER********** */
 #header{
   background: rgba(81, 90, 90,0.7);
 }
@@ -25,6 +21,7 @@ body{
   color: white;
 }
 
+/* **********SECCION IZQUIERDA************** */
 #seccion-izq{
   background: rgba(81, 90, 90,0.7);
   padding:1em;
@@ -32,7 +29,6 @@ body{
 
 #seccion-izq>.row{
   background: rgba(254, 249, 231,0.8);
-
 }
 
 #seccion-izq>.row>div{
@@ -42,7 +38,10 @@ body{
 
 #seccion-izq>.row>div:nth-child(2){
   padding: 0;
-  /* border: 0px; */
+}
+
+img[src="img/buscar.png"]{
+  width: 80%;
 }
 
 .title-izq{
@@ -54,7 +53,6 @@ body{
 #buscar>.row>.column{
   padding: 0;
 }
-
 
 #menu>.button{
   margin: 0;
@@ -74,7 +72,50 @@ body{
   padding: 0.2em;
 }
 
+/* **********SECCION DERECHA************** */
 #seccion-der{
   background: rgba(81, 90, 90,0.7);
-  padding: 1em 1em 1em 0;
+  padding:1em;
+  padding: 1em;
+  color: black;
+}
+
+#seccion-der>.row{
+    background: rgba(249, 247, 245,0.8);
+}
+
+#seccion-der>article:nth-child(2){
+
+    border-top: 1px dashed white;
+    padding-top: 1em;
+
+}
+
+h2{
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+  font-size: 3em;;
+}
+
+h6{
+  font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+img[src^="img/receta"]{
+  width: 100%;
+}
+
+.receta{
+  margin-top: 1em;
+  text-align: justify;
+}
+
+textarea{
+  height: 85%;
+}
+
+.comentario>div:nth-child(2)>p{
+  padding: 1em;
+  background-color: rgba(245, 244, 244, 0.5);
+  font-style: italic;
 }

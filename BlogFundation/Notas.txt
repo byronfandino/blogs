@@ -1,1 +1,2 @@
-Para apilar los items en el menu de navegación utilice las clase .large-stack, tambien las clases .button-group con la clase .stacked-for-large, pero no me funcionó, al final utilicé las clases "button large expand", para tener un menú apilado. 
+Para apilar los items en el menu de navegación utilice las clase .large-stack, tambien las clases .button-group con la clase .stacked-for-large, pero no me funcionó, al final utilicé las clases "button large expand", para tener un menú apilado.
+En el enunciado Nro. 8 se menciona sobre aplicar el efecto Fundation para las imágenes, pero este no fue mencionado en los videos.
