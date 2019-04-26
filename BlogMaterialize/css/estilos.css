@@ -1,14 +1,19 @@
 
 *{
-  /* border: 1px solid green; */
+  border: 1px solid green;
+}
+
+.header>.col:nth-child(1){
+  padding:1em 0em 0em 1em;
+  height: 150px;
 }
 
 img[src="img/logo.jpg"]{
-  margin-top: 1em;
+  height: 95%;
 }
 
 .menu .btn-small{
-  margin: 1em;
+  margin: 0.3em;
 }
 
 .slogan{
@@ -17,18 +22,21 @@ img[src="img/logo.jpg"]{
   margin: 0;
 }
 
-@media (min-width:601px){
-  /*Se utilia display flex para alineación vertical Inferior de los elementos*/
-  .seccion-header{
-    clear: both;
-    display: flex;
-    flex-flow: row wrap;
-    align-items: flex-end;
+@media (min-width:1035px){
+  .slogan{
+    margin-top: 1em;
+  }
+}
+
+@media (min-width:601px) and (max-width:993px){
+  .slogan{
+    margin-top: 1.7em;
+    font-size: 2.5em;
   }
 }
 
 @media (max-width:600px){
   .slogan{
-    text-align: center;
+    font-size: 2em;
   }
 }
