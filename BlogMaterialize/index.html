@@ -3,45 +3,207 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lobster|family=Fira+Sans|family=Roboto" rel="stylesheet">
   <!--Importar la fuente de los íconos de Google-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!--Importar la hojas de estilos de materialize css-->
   <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/estilos.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <title>Contenedores y Sistema de Rejilla</title>
+  <title>Blog de turismo</title>
 </head>
 <body>
 
+  <!-- HEADER -->
   <div class="row header">
 
     <div class="col s5 m4">
-      <img src="img/logo.jpg" alt="Logo" class="circle responsive-img right"/>
+      <figure>
+          <img src="img/logo.jpg" alt="Logo" class="circle responsive-img right"/>
+      </figure>
     </div>
 
     <div class="col s7 m8"><!-- Menu de botones -->
       <!-- primer menu para pantallas PC -->
       <div class="right hide-on-med-and-down menu">
-        <a class="btn-small"><i class="material-icons left">home</i> Inicio</a>
-        <a class="btn-small"><i class="material-icons left">location_on</i> Estuve en...</a>
-        <a class="btn-small"><i class="material-icons left">card_travel</i> Mejores Viajes</a>
-        <a class="btn-small"><i class="material-icons left">chat_bubble_outline</i> Recomendaciones</a>
+        <a class="btn-small teal darken-3"><i class="material-icons left">home</i> Inicio</a>
+        <a class="btn-small teal darken-3"><i class="material-icons left">location_on</i> Estuve en...</a>
+        <a class="btn-small teal darken-3"><i class="material-icons left">card_travel</i> Mejores Viajes</a>
+        <a class="btn-small teal darken-3"><i class="material-icons left">chat_bubble_outline</i> Recomendaciones</a>
       </div>
 
       <!-- segundo menu para dipositivos medianos y pequeños -->
       <div class="right hide-on-large-only">
-        <a class="btn-small"><i class="material-icons center">home</i></a>
-        <a class="btn-small"><i class="material-icons center">location_on</i></a>
-        <a class="btn-small"><i class="material-icons center">card_travel</i></a>
-        <a class="btn-small"><i class="material-icons center">chat_bubble_outline</i></a>
+        <a class="btn-small teal darken-3"><i class="material-icons center">home</i></a>
+        <a class="btn-small teal darken-3"><i class="material-icons center">location_on</i></a>
+        <a class="btn-small teal darken-3"><i class="material-icons center">card_travel</i></a>
+        <a class="btn-small teal darken-3"><i class="material-icons center">chat_bubble_outline</i></a>
       </div>
     </div>
 
-    <div class="col s12 m8 content-slogan">
-      <div class="">
-        <p class="slogan indigo-text text-darken-4">Descubriendo el mundo</p>
-      </div>
+    <div class="col s12 m8">
+        <h1 class="slogan white-text">Recorriendo el mundo</h1>
     </div>
+  </div>
+  
+  <!-- SECCION DE REDES SOCIALES Y PAISAJES -->
+  <div class="row paisajes">
+    <div class="col l1 hide-on-med-and-down">
+        <ul>
+          <li><a href=""><img src="icons/facebook.svg" alt=""></a></li>
+          <li><a href=""><img src="icons/linkedin.svg" alt=""></a></li>
+          <li><a href=""><img src="icons/pinterest.svg" alt=""></a></li>
+          <li><a href=""><img src="icons/twitter.svg" alt=""></a></li>
+          <li><a href=""><img src="icons/youtube.svg" alt=""></a></li>
+        </ul>
+    </div>
+    <div class="col m12 l11 lime lighten-5">
+        <div>
+          <div class="row">
+            <div class="col m12 l4">
+              <img src="img/paisaje1.jpg" class="responsive-img z-depth-3" alt="Paisaje1">
+              <img src="img/paisaje2.jpg" class="responsive-img z-depth-3" alt="Paisaje2">
+            </div>
+            <div class="col m12 l4">
+              <img src="img/paisajeCentral.jpg" class="responsive-img z-depth-3" alt="Paisaje5">
+            </div>
+            <div class="col m12 l4">
+              <img src="img/paisaje3.jpg" class="responsive-img z-depth-3" alt="Paisaje3">
+              <img src="img/paisaje4.jpg" class="responsive-img z-depth-3" alt="Paisaje4">
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <!-- ENTRADAS DEL BLOG Y PERFIL -->
+  <div class="row">
+
+    <div class="col s12 m12 l7 offset-l1 teal lighten-5"><!-- PRIMERA PUBLICACION -->
+      
+      <div class="publicacion">
+
+        <figure class="content-img">
+          <img src="img/canoCristales.jpg" alt="Caño Cristales" class="z-depth-3">
+        </figure>
+        <div>
+          <h2>Caño Cristales</h2>
+          <div class="fecha-ubicacion">
+                <span class="card left">
+                    <i class="material-icons right">date_range</i> 28/04/2019
+                </span>
+                <span class="card left">
+                    <i class="material-icons right">location_on</i> Meta, Colombia
+                </span>
+          </div>
+          <p>
+              Muy cerca del municipio de La Macarena, en el departamento del Meta (Colombia), se encuentra el que hoy por hoy es considerado por muchos como el “Río más hermoso del mundo”: Caño Cristales. También es conocido por el nombre del “Río de los cinco colores” (amarillo, azul, verde, rojo y negro), pues en sus aguas transparentes y puras se dejan ver plantas acuáticas, la arena y las hermosas formaciones rocosas de su lecho.
+          </p>
+          <p>
+              No es un río muy ancho ni caudaloso, por eso los lugareños le llaman “Caño”. Realmente no sobrepasa en su parte más ancha los 20 metros. Su longitud no va más allá de los 100 kilómetros. Su nacimiento se produce en la meseta sur de la Serranía de La Macarena, en el Meta.
+          </p>
+        </div>
+      </div>
+
+
+    </div>
+  
+    <div class="col l4 hide-on-med-and-down"> <!-- PERFIL -->
+      <div class="teal lighten-2 perfil">
+
+        <figure class="center-align">
+          <img src="https://lh3.googleusercontent.com/a-/AAuE7mBdo1z0IaXpgmU7q87rSJCpC4vv4HoDsKWUFPZPSg=s96" alt="Foto de perfil" class="circle responsive-img">
+        </figure>
+        <div class="center-align">
+          <h5>
+             Perfil del autor
+          </h5>
+          <p>
+            Mi nombre es Byron Fandiño, soy desarrollador web tanto en frontend como en backend, certificado por Next University, me encanta la programación ya que es un mundo de conocimiento infinito, y del cual nunca me voy a aburrir de aprender y superarme a mí mismo.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col s12 m12 l7 offset-l1 teal lighten-5"> <!-- SEGUNDA PUBLICACION -->
+        <div class="publicacion">
+
+        <figure class="content-img">
+          <img src="img/vaticano.jpg" alt="Caño Cristales" class="z-depth-3">
+        </figure>
+        <div>
+          <h2>Ciudad del Vaticano</h2>
+          <div class="fecha-ubicacion">
+                <span class="card left">
+                    <i class="material-icons right">date_range</i> 05/02/2019
+                </span>
+                <span class="card left">
+                    <i class="material-icons right">location_on</i> Roma, Italia
+                </span>
+          </div>
+          <p>
+              La Ciudad del Vaticano alberga la Santa Sede, máxima institución de la Iglesia católica. Aunque los dos nombres, <em>Ciudad del Vaticano</em> y <em>Santa Sede</em>, se utilizan a menudo como si fueran equivalentes, el primero se refiere a la ciudad y a su territorio, mientras que el segundo se refiere a la institución que dirige la Iglesia y que tiene personalidad jurídica propia como sujeto de Derecho internacional. En rigor, es la Santa Sede, y no el Estado del Vaticano, la que mantiene relaciones diplomáticas con los demás países del mundo. Por otro lado, el Vaticano es quien da el soporte temporal y soberano (sustrato territorial) para la actividad de la Santa Sede.
+          </p>
+          <p>
+              Esta ciudad es el cuarto sitio imprescindible en opinión de los viajeros de TripAdvisor es la basílica de San Pedro del Vaticano, uno de los rincones más sagrados del catolicismo. Construida entre los años 1506 y 1626 sobre el lugar en el que se cree que están enterrados los restos del apóstol, acoge los actos más multitudinarios que tienen lugar en Roma. Aunque no es el templo más importante de la ciudad, cuenta con una cúpula espectacular que ha servido de inspiración de otras grandes obras.
+          </p>
+        </div>
+  
+      </div> <!-- fin de la publicacion -->
+
+        <!-- *****COMENTARIOS**** -->
+        <div class="card comentarios">
+          
+          <form>
+            <h5>Deja tu comentario</h5>
+        
+              <div class="row">
+  
+                <div class="col s12 m12 l6 input-field">
+                    <i class="material-icons prefix">person</i>
+                    <input type="text" id="nombre" class="validate">
+                    <label for="nombre">Nombre completo</label>
+                    <span class="helper-text" data-error="Diligencie el campo adecuadamente" data-success="Correcto" ></span>
+                </div>
+                <div class="col s12 m12 l6 input-field">
+                    <i class="material-icons prefix">email</i>
+                    <input type="email" id="correo" class="validate">
+                    <label for="correo">Correo electrónico</label>
+                    <span class="helper-text" data-error="Diligencie el campo adecuadamente" data-success="Correcto" ></span>
+                </div>
+                <div class="col s12 input-field">
+                    <i class="material-icons prefix">message</i>
+                    <textarea id="mensaje" class="materialize-textarea validate"></textarea>
+                    <label for="mensaje">Escribe aquí tu comentario</label>
+                    <span class="helper-text" data-error="Diligencie el campo adecuadamente" data-success="Correcto" ></span>
+                </div>
+                <div class="center-align">
+                  <a href="" class="btn-large teal darken-3"><i class="material-icons prefix right">send</i>Enviar</a>
+  
+                </div>
+              </div>
+            </form>
+        </div>
+
+        <div class="col s12 m12 hide-on-large-only"> <!-- PERFIL -->
+          <div class="teal lighten-2 perfil">
+    
+            <figure class="center-align">
+              <img src="https://lh3.googleusercontent.com/a-/AAuE7mBdo1z0IaXpgmU7q87rSJCpC4vv4HoDsKWUFPZPSg=s96" alt="Foto de perfil" class="circle responsive-img">
+            </figure>
+            <div class="center-align">
+              <h5>
+                 Perfil del autor
+              </h5>
+              <p>
+                Mi nombre es Byron Fandiño, soy desarrollador web tanto en frontend como en backend, certificado por Next University, me encanta la programación ya que es un mundo de conocimiento infinito, y del cual nunca me voy a aburrir de aprender y superarme a mí mismo.
+              </p>
+            </div>
+          </div>
+    
+        </div>
+      </div>
+
   </div>
 
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
